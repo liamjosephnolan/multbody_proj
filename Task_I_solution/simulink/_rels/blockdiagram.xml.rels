@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Id="ScheduleCore" Target="ScheduleCore.xml" Type="http://schemas.mathworks.com/simulink/2013/relationships/ScheduleCore"/>
+  <Relationship Id="ScheduleEditor" Target="ScheduleEditor.xml" Type="http://schemas.mathworks.com/simulink/2013/relationships/ScheduleEditor"/>
+  <Relationship Id="SimscapeInstrumentationVariables_23" Target="bdmxdata/SimscapeInstrumentationVariables_23.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_24" Target="bdmxdata/SimscapeInstrumentationVariables_24.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_25" Target="bdmxdata/SimscapeInstrumentationVariables_25.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_26" Target="bdmxdata/SimscapeInstrumentationVariables_26.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_27" Target="bdmxdata/SimscapeInstrumentationVariables_27.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_28" Target="bdmxdata/SimscapeInstrumentationVariables_28.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_29" Target="bdmxdata/SimscapeInstrumentationVariables_29.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_30" Target="bdmxdata/SimscapeInstrumentationVariables_30.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_35" Target="bdmxdata/SimscapeInstrumentationVariables_35.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_36" Target="bdmxdata/SimscapeInstrumentationVariables_36.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_37" Target="bdmxdata/SimscapeInstrumentationVariables_37.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_49" Target="bdmxdata/SimscapeInstrumentationVariables_49.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_65" Target="bdmxdata/SimscapeInstrumentationVariables_65.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_83" Target="bdmxdata/SimscapeInstrumentationVariables_83.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_84" Target="bdmxdata/SimscapeInstrumentationVariables_84.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_86" Target="bdmxdata/SimscapeInstrumentationVariables_86.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_87" Target="bdmxdata/SimscapeInstrumentationVariables_87.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_88" Target="bdmxdata/SimscapeInstrumentationVariables_88.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_89" Target="bdmxdata/SimscapeInstrumentationVariables_89.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_90" Target="bdmxdata/SimscapeInstrumentationVariables_90.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_91" Target="bdmxdata/SimscapeInstrumentationVariables_91.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_92" Target="bdmxdata/SimscapeInstrumentationVariables_92.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="SimscapeInstrumentationVariables_93" Target="bdmxdata/SimscapeInstrumentationVariables_93.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelMxArray"/>
+  <Relationship Id="UserData_48" Target="bdmxdata/UserData_48.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelUserData"/>
+  <Relationship Id="graphicalInterface" Target="graphicalInterface.json" Type="http://schemas.mathworks.com/simulinkModel/2014/relationships/graphicalInterface"/>
+  <Relationship Id="hdlParams" Target="hdlParams.xml" Type="http://schemas.mathworks.com/simulink/2021/relationships/hdlParams"/>
+  <Relationship Id="system_root" Target="systems/system_root.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="windowsInfo" Target="windowsInfo.xml" Type="http://schemas.mathworks.com/simulinkModel/2019/relationships/windowsInfo"/>
+</Relationships>

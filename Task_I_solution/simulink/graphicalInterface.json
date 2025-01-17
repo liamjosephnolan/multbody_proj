@@ -1,0 +1,225 @@
+{
+    "GraphicalInterface":{
+        "ExternalFileReferences":[
+            {
+                "Path":"$bdroot\/2 mass system\/Sensor 1\/Ideal Translational Motion Sensor",
+                "Reference":"fl_lib\/Mechanical\/Mechanical Sensors\/Ideal Translational\nMotion Sensor",
+                "SID":"49",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/Sensor 1\/PS-Simulink Converter",
+                "Reference":"nesl_utility\/PS-Simulink\nConverter",
+                "SID":"56",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/Sensor 1\/PS-Simulink Converter1",
+                "Reference":"nesl_utility\/PS-Simulink\nConverter",
+                "SID":"57",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/Sensor 1\/PS-Simulink Converter2",
+                "Reference":"nesl_utility\/PS-Simulink\nConverter",
+                "SID":"59",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/Sensor 2\/Ideal Translational Motion Sensor",
+                "Reference":"fl_lib\/Mechanical\/Mechanical Sensors\/Ideal Translational\nMotion Sensor",
+                "SID":"65",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/Sensor 2\/PS-Simulink Converter",
+                "Reference":"nesl_utility\/PS-Simulink\nConverter",
+                "SID":"66",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/Sensor 2\/PS-Simulink Converter1",
+                "Reference":"nesl_utility\/PS-Simulink\nConverter",
+                "SID":"67",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/Sensor 2\/PS-Simulink Converter2",
+                "Reference":"nesl_utility\/PS-Simulink\nConverter",
+                "SID":"68",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/d1",
+                "Reference":"sdl_lib\/Couplings & Drives\/Springs & Dampers\/Translational Damper",
+                "SID":"26",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/d2",
+                "Reference":"sdl_lib\/Couplings & Drives\/Springs & Dampers\/Translational Damper",
+                "SID":"28",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/k1",
+                "Reference":"fl_lib\/Mechanical\/Translational\nElements\/Translational Spring",
+                "SID":"25",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/k2",
+                "Reference":"fl_lib\/Mechanical\/Translational\nElements\/Translational Spring",
+                "SID":"29",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/m1",
+                "Reference":"fl_lib\/Mechanical\/Translational\nElements\/Mass",
+                "SID":"23",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/2 mass system\/m2",
+                "Reference":"fl_lib\/Mechanical\/Translational\nElements\/Mass",
+                "SID":"27",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Brick Solid",
+                "Reference":"sm_lib\/Body Elements\/Brick Solid",
+                "SID":"92",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/External Force and Torque",
+                "Reference":"sm_lib\/Forces and\nTorques\/External Force\nand Torque",
+                "SID":"93",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ideal Force Source",
+                "Reference":"fl_lib\/Mechanical\/Mechanical Sources\/Ideal Force Source",
+                "SID":"36",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ideal Translational Motion Sensor",
+                "Reference":"fl_lib\/Mechanical\/Mechanical Sensors\/Ideal Translational\nMotion Sensor",
+                "SID":"30",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Mass 1",
+                "Reference":"sm_lib\/Body Elements\/Spherical Solid",
+                "SID":"86",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Mass 2",
+                "Reference":"sm_lib\/Body Elements\/Spherical Solid",
+                "SID":"89",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Mechanical Translational Reference",
+                "Reference":"fl_lib\/Mechanical\/Translational\nElements\/Mechanical\nTranslational\nReference",
+                "SID":"24",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Mechanical Translational Reference1",
+                "Reference":"fl_lib\/Mechanical\/Translational\nElements\/Mechanical\nTranslational\nReference",
+                "SID":"35",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Mechanical Translational Reference2",
+                "Reference":"fl_lib\/Mechanical\/Translational\nElements\/Mechanical\nTranslational\nReference",
+                "SID":"37",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Mechanism Configuration",
+                "Reference":"sm_lib\/Utilities\/Mechanism\nConfiguration",
+                "SID":"83",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/PID Controller",
+                "Reference":"slpidlib\/PID Controller",
+                "SID":"40",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/PS-Simulink Converter1",
+                "Reference":"nesl_utility\/PS-Simulink\nConverter",
+                "SID":"95",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Prismatic Joint",
+                "Reference":"sm_lib\/Joints\/Prismatic\nJoint",
+                "SID":"87",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Prismatic Joint1",
+                "Reference":"sm_lib\/Joints\/Prismatic\nJoint",
+                "SID":"88",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Pulse Gen",
+                "Reference":"SignalEditorBlockLib\/Signal Editor",
+                "SID":"48",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Rigid Transform",
+                "Reference":"sm_lib\/Frames and\nTransforms\/Rigid\nTransform",
+                "SID":"90",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Rigid Transform1",
+                "Reference":"sm_lib\/Frames and\nTransforms\/Rigid\nTransform",
+                "SID":"91",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Simulink-PS Converter",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"97",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Simulink-PS Converter1",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"98",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Solver Configuration",
+                "Reference":"nesl_utility\/Solver\nConfiguration",
+                "SID":"1",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Solver Configuration1",
+                "Reference":"nesl_utility\/Solver\nConfiguration",
+                "SID":"85",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/World Frame",
+                "Reference":"sm_lib\/Frames and\nTransforms\/World Frame",
+                "SID":"84",
+                "Type":"LIBRARY_BLOCK"
+            }
+        ],
+        "PreCompExecutionDomainType":"Unset",
+        "SimulinkSubDomainType":"Simulink",
+        "SolverName":"VariableStepAuto"
+    }
+}

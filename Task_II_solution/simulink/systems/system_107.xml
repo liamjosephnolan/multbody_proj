@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-1921, -8, 1, 1161]</P>
+  <P Name="ZoomFactor">224</P>
+  <Block BlockType="Reference" Name="Electrical Reference" SID="104">
+    <PortCounts lconn="1"/>
+    <P Name="Position">[225, 220, 245, 240]</P>
+    <P Name="ZOrder">7070</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="HideAutomaticName">off</P>
+    <P Name="LibraryVersion">24002000.1</P>
+    <P Name="SourceBlock">fl_lib/Electrical/Electrical Elements/Electrical Reference</P>
+    <P Name="SourceType">Electrical Reference</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_104"/>
+      <P Name="SourceFile">foundation.electrical.elements.reference</P>
+      <P Name="InternalSimscapePortConfiguration">{&quot;Bottom&quot;:[],&quot;Left&quot;:[{&quot;id&quot;:&quot;V&quot;,&quot;label&quot;:&quot;&quot;,&quot;type&quot;:&quot;foundation.electrical.electrical&quot;}],&quot;Right&quot;:[],&quot;Top&quot;:[]}</P>
+      <P Name="SscBlockScalableBuild">off</P>
+      <P Name="ComponentPath">foundation.electrical.elements.reference</P>
+      <P Name="ComponentVariants">[&quot;foundation.electrical.elements.reference&quot;]</P>
+      <P Name="ComponentVariantNames">[&quot;reference&quot;]</P>
+      <P Name="ClassName">reference</P>
+      <P Name="SchemaVersion">1</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Inductor" SID="99">
+    <PortCounts lconn="1" rconn="1"/>
+    <P Name="Position">[200, 21, 240, 49]</P>
+    <P Name="ZOrder">7065</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="HideAutomaticName">off</P>
+    <P Name="LibraryVersion">24002000.1</P>
+    <P Name="SourceBlock">fl_lib/Electrical/Electrical Elements/Inductor</P>
+    <P Name="SourceType">Inductor</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_99"/>
+      <P Name="SourceFile">foundation.electrical.elements.inductor</P>
+      <P Name="InternalSimscapePortConfiguration">{&quot;Bottom&quot;:[],&quot;Left&quot;:[{&quot;id&quot;:&quot;p&quot;,&quot;label&quot;:&quot;+&quot;,&quot;type&quot;:&quot;foundation.electrical.electrical&quot;}],&quot;Right&quot;:[{&quot;id&quot;:&quot;n&quot;,&quot;label&quot;:&quot;-&quot;,&quot;type&quot;:&quot;foundation.electrical.electrical&quot;}],&quot;Top&quot;:[]}</P>
+      <P Name="SscBlockScalableBuild">off</P>
+      <P Name="ComponentPath">foundation.electrical.elements.inductor</P>
+      <P Name="ComponentVariants">[&quot;foundation.electrical.elements.inductor&quot;]</P>
+      <P Name="ComponentVariantNames">[&quot;inductor&quot;]</P>
+      <P Name="ClassName">inductor</P>
+      <P Name="SchemaVersion">1</P>
+      <P Name="l">L</P>
+      <P Name="l_unit">H</P>
+      <P Name="l_conf">compiletime</P>
+      <P Name="r">0</P>
+      <P Name="r_unit">Ohm</P>
+      <P Name="r_conf">compiletime</P>
+      <P Name="g">1e-9</P>
+      <P Name="g_unit">1/Ohm</P>
+      <P Name="g_conf">compiletime</P>
+      <P Name="i_specify">off</P>
+      <P Name="i_priority">None</P>
+      <P Name="i">0</P>
+      <P Name="i_unit">A</P>
+      <P Name="i_nominal_specify">off</P>
+      <P Name="i_nominal_value">1</P>
+      <P Name="i_nominal_unit">A</P>
+      <P Name="v_specify">off</P>
+      <P Name="v_priority">None</P>
+      <P Name="v">0</P>
+      <P Name="v_unit">V</P>
+      <P Name="v_nominal_specify">off</P>
+      <P Name="v_nominal_value">1</P>
+      <P Name="v_nominal_unit">V</P>
+      <P Name="i_L_specify">off</P>
+      <P Name="i_L_priority">High</P>
+      <P Name="i_L">0</P>
+      <P Name="i_L_unit">A</P>
+      <P Name="i_L_nominal_specify">off</P>
+      <P Name="i_L_nominal_value">1</P>
+      <P Name="i_L_nominal_unit">A</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Mass" SID="125">
+    <PortCounts lconn="1"/>
+    <P Name="Position">[350, -40, 390, 0]</P>
+    <P Name="ZOrder">7074</P>
+    <P Name="BlockRotation">90</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="NameLocation">left</P>
+    <P Name="HideAutomaticName">off</P>
+    <P Name="LibraryVersion">24002000.1</P>
+    <P Name="SourceBlock">fl_lib/Mechanical/Translational
+Elements/Mass</P>
+    <P Name="SourceType">Mass</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_125"/>
+      <P Name="SourceFile">foundation.mechanical.translational.mass</P>
+      <P Name="InternalSimscapePortConfiguration">{&quot;Bottom&quot;:[],&quot;Left&quot;:[{&quot;id&quot;:&quot;M&quot;,&quot;label&quot;:&quot;&quot;,&quot;type&quot;:&quot;foundation.mechanical.translational.translational&quot;}],&quot;Right&quot;:[],&quot;Top&quot;:[]}</P>
+      <P Name="SscBlockScalableBuild">off</P>
+      <P Name="ComponentPath">foundation.mechanical.translational.mass</P>
+      <P Name="ComponentVariants">[&quot;foundation.mechanical.translational.mass&quot;]</P>
+      <P Name="ComponentVariantNames">[&quot;mass&quot;]</P>
+      <P Name="ClassName">mass</P>
+      <P Name="SchemaVersion">1</P>
+      <P Name="mass">m</P>
+      <P Name="mass_unit">kg</P>
+      <P Name="mass_conf">compiletime</P>
+      <P Name="num_ports">foundation.enum.numPorts2.one</P>
+      <P Name="num_ports_unit">1</P>
+      <P Name="num_ports_conf">compiletime</P>
+      <P Name="v_specify">off</P>
+      <P Name="v_priority">High</P>
+      <P Name="v">0</P>
+      <P Name="v_unit">m/s</P>
+      <P Name="v_nominal_specify">off</P>
+      <P Name="v_nominal_value">1</P>
+      <P Name="v_nominal_unit">m/s</P>
+      <P Name="f_specify">off</P>
+      <P Name="f_priority">None</P>
+      <P Name="f">0</P>
+      <P Name="f_unit">N</P>
+      <P Name="f_nominal_specify">off</P>
+      <P Name="f_nominal_value">1</P>
+      <P Name="f_nominal_unit">N</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Mechanical&#xA;Translational&#xA;Reference" SID="102">
+    <PortCounts lconn="1"/>
+    <P Name="Position">[360, 210, 380, 230]</P>
+    <P Name="ZOrder">7068</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="HideAutomaticName">off</P>
+    <P Name="LibraryVersion">24002000.1</P>
+    <P Name="SourceBlock">fl_lib/Mechanical/Translational
+Elements/Mechanical
+Translational
+Reference</P>
+    <P Name="SourceType">Mechanical
+Translational
+Reference</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_102"/>
+      <P Name="SourceFile">foundation.mechanical.translational.reference</P>
+      <P Name="InternalSimscapePortConfiguration">{&quot;Bottom&quot;:[],&quot;Left&quot;:[{&quot;id&quot;:&quot;V&quot;,&quot;label&quot;:&quot;&quot;,&quot;type&quot;:&quot;foundation.mechanical.translational.translational&quot;}],&quot;Right&quot;:[],&quot;Top&quot;:[]}</P>
+      <P Name="SscBlockScalableBuild">off</P>
+      <P Name="ComponentPath">foundation.mechanical.translational.reference</P>
+      <P Name="ComponentVariants">[&quot;foundation.mechanical.translational.reference&quot;]</P>
+      <P Name="ComponentVariantNames">[&quot;reference&quot;]</P>
+      <P Name="ClassName">reference</P>
+      <P Name="SchemaVersion">1</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Resistor" SID="100">
+    <PortCounts lconn="1" rconn="1"/>
+    <P Name="Position">[125, 21, 165, 49]</P>
+    <P Name="ZOrder">7066</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="HideAutomaticName">off</P>
+    <P Name="LibraryVersion">24002000.1</P>
+    <P Name="SourceBlock">fl_lib/Electrical/Electrical Elements/Resistor</P>
+    <P Name="SourceType">Resistor</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_100"/>
+      <P Name="SourceFile">foundation.electrical.elements.resistor</P>
+      <P Name="InternalSimscapePortConfiguration">{&quot;Bottom&quot;:[],&quot;Left&quot;:[{&quot;id&quot;:&quot;p&quot;,&quot;label&quot;:&quot;+&quot;,&quot;type&quot;:&quot;foundation.electrical.electrical&quot;}],&quot;Right&quot;:[{&quot;id&quot;:&quot;n&quot;,&quot;label&quot;:&quot;-&quot;,&quot;type&quot;:&quot;foundation.electrical.electrical&quot;}],&quot;Top&quot;:[]}</P>
+      <P Name="SscBlockScalableBuild">off</P>
+      <P Name="ComponentPath">foundation.electrical.elements.resistor</P>
+      <P Name="ComponentVariants">[&quot;foundation.electrical.elements.resistor&quot;]</P>
+      <P Name="ComponentVariantNames">[&quot;resistor&quot;]</P>
+      <P Name="ClassName">resistor</P>
+      <P Name="SchemaVersion">1</P>
+      <P Name="R">R</P>
+      <P Name="R_unit">Ohm</P>
+      <P Name="R_conf">compiletime</P>
+      <P Name="i_specify">off</P>
+      <P Name="i_priority">None</P>
+      <P Name="i">0</P>
+      <P Name="i_unit">A</P>
+      <P Name="i_nominal_specify">off</P>
+      <P Name="i_nominal_value">1</P>
+      <P Name="i_nominal_unit">A</P>
+      <P Name="v_specify">off</P>
+      <P Name="v_priority">None</P>
+      <P Name="v">0</P>
+      <P Name="v_unit">V</P>
+      <P Name="v_nominal_specify">off</P>
+      <P Name="v_nominal_value">1</P>
+      <P Name="v_nominal_unit">V</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Translational&#xA;Electromechanical&#xA;Converter" SID="98">
+    <PortCounts lconn="2" rconn="2"/>
+    <P Name="Position">[275, 80, 355, 130]</P>
+    <P Name="ZOrder">7064</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="NameLocation">left</P>
+    <P Name="HideAutomaticName">off</P>
+    <P Name="LibraryVersion">24002000.1</P>
+    <P Name="SourceBlock">fl_lib/Electrical/Electrical Elements/Translational
+Electromechanical
+Converter</P>
+    <P Name="SourceType">Translational
+Electromechanical
+Converter</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_98"/>
+      <P Name="SourceFile">foundation.electrical.elements.translational_converter</P>
+      <P Name="InternalSimscapePortConfiguration">{&quot;Bottom&quot;:[],&quot;Left&quot;:[{&quot;id&quot;:&quot;p&quot;,&quot;label&quot;:&quot;+&quot;,&quot;type&quot;:&quot;foundation.electrical.electrical&quot;},{&quot;id&quot;:&quot;R&quot;,&quot;label&quot;:&quot;R&quot;,&quot;type&quot;:&quot;foundation.mechanical.translational.translational&quot;}],&quot;Right&quot;:[{&quot;id&quot;:&quot;n&quot;,&quot;label&quot;:&quot;-&quot;,&quot;type&quot;:&quot;foundation.electrical.electrical&quot;},{&quot;id&quot;:&quot;C&quot;,&quot;label&quot;:&quot;C&quot;,&quot;type&quot;:&quot;foundation.mechanical.translational.translational&quot;}],&quot;Top&quot;:[]}</P>
+      <P Name="SscBlockScalableBuild">off</P>
+      <P Name="ComponentPath">foundation.electrical.elements.translational_converter</P>
+      <P Name="ComponentVariants">[&quot;foundation.electrical.elements.translational_converter&quot;]</P>
+      <P Name="ComponentVariantNames">[&quot;translational_converter&quot;]</P>
+      <P Name="ClassName">translational_converter</P>
+      <P Name="SchemaVersion">1</P>
+      <P Name="K">Mk</P>
+      <P Name="K_unit">V*s/m</P>
+      <P Name="K_conf">compiletime</P>
+      <P Name="i_specify">off</P>
+      <P Name="i_priority">None</P>
+      <P Name="i">0</P>
+      <P Name="i_unit">A</P>
+      <P Name="i_nominal_specify">off</P>
+      <P Name="i_nominal_value">1</P>
+      <P Name="i_nominal_unit">A</P>
+      <P Name="v_specify">off</P>
+      <P Name="v_priority">None</P>
+      <P Name="v">0</P>
+      <P Name="v_unit">V</P>
+      <P Name="v_nominal_specify">off</P>
+      <P Name="v_nominal_value">1</P>
+      <P Name="v_nominal_unit">V</P>
+      <P Name="f_specify">off</P>
+      <P Name="f_priority">None</P>
+      <P Name="f">0</P>
+      <P Name="f_unit">N</P>
+      <P Name="f_nominal_specify">off</P>
+      <P Name="f_nominal_value">1</P>
+      <P Name="f_nominal_unit">N</P>
+      <P Name="u_specify">off</P>
+      <P Name="u_priority">None</P>
+      <P Name="u">0</P>
+      <P Name="u_unit">m/s</P>
+      <P Name="u_nominal_specify">off</P>
+      <P Name="u_nominal_value">1</P>
+      <P Name="u_nominal_unit">m/s</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Translational Damper" SID="127">
+    <PortCounts lconn="1" rconn="1"/>
+    <P Name="Position">[420, 21, 460, 49]</P>
+    <P Name="ZOrder">7076</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="HideAutomaticName">off</P>
+    <P Name="LibraryVersion">24002000.1</P>
+    <P Name="SourceBlock">fl_lib/Mechanical/Translational
+Elements/Translational Damper</P>
+    <P Name="SourceType">Translational Damper</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_127"/>
+      <P Name="SourceFile">foundation.mechanical.translational.damper</P>
+      <P Name="InternalSimscapePortConfiguration">{&quot;Bottom&quot;:[],&quot;Left&quot;:[{&quot;id&quot;:&quot;R&quot;,&quot;label&quot;:&quot;R&quot;,&quot;type&quot;:&quot;foundation.mechanical.translational.translational&quot;}],&quot;Right&quot;:[{&quot;id&quot;:&quot;C&quot;,&quot;label&quot;:&quot;C&quot;,&quot;type&quot;:&quot;foundation.mechanical.translational.translational&quot;}],&quot;Top&quot;:[]}</P>
+      <P Name="SscBlockScalableBuild">off</P>
+      <P Name="ComponentPath">foundation.mechanical.translational.damper</P>
+      <P Name="ComponentVariants">[&quot;foundation.mechanical.translational.damper&quot;]</P>
+      <P Name="ComponentVariantNames">[&quot;damper&quot;]</P>
+      <P Name="ClassName">damper</P>
+      <P Name="SchemaVersion">1</P>
+      <P Name="D">d</P>
+      <P Name="D_unit">N*s/m</P>
+      <P Name="D_conf">compiletime</P>
+      <P Name="v_specify">off</P>
+      <P Name="v_priority">None</P>
+      <P Name="v">0</P>
+      <P Name="v_unit">m/s</P>
+      <P Name="v_nominal_specify">off</P>
+      <P Name="v_nominal_value">1</P>
+      <P Name="v_nominal_unit">m/s</P>
+      <P Name="f_specify">off</P>
+      <P Name="f_priority">None</P>
+      <P Name="f">0</P>
+      <P Name="f_unit">N</P>
+      <P Name="f_nominal_specify">off</P>
+      <P Name="f_nominal_value">1</P>
+      <P Name="f_nominal_unit">N</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Pos" SID="108">
+    <P Name="Position">[20, 28, 50, 42]</P>
+    <P Name="ZOrder">7071</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Neg" SID="110">
+    <P Name="Position">[20, 168, 50, 182]</P>
+    <P Name="ZOrder">7073</P>
+    <P Name="Port">2</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="R" SID="109">
+    <P Name="Position">[520, 28, 550, 42]</P>
+    <P Name="ZOrder">7072</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="Port">3</P>
+    <P Name="Side">Right</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="C" SID="126">
+    <P Name="Position">[520, 163, 550, 177]</P>
+    <P Name="ZOrder">7075</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="Port">4</P>
+    <P Name="Side">Right</P>
+  </Block>
+  <Line LineType="Connection">
+    <P Name="ZOrder">204</P>
+    <P Name="Src">125#lconn:1</P>
+    <P Name="Points">[0, 20]</P>
+    <Branch ConnectType="DEST_DEST">
+      <P Name="Src">127#lconn:1</P>
+      <P Name="Points">[-35, 0]</P>
+    </Branch>
+    <Branch ConnectType="DEST_DEST">
+      <P Name="Src">98#lconn:2</P>
+      <P Name="Points">[0, -30; 35, 0]</P>
+    </Branch>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">205</P>
+    <P Name="Src">104#lconn:1</P>
+    <P Name="Points">[0, -30]</P>
+    <Branch ConnectType="DEST_DEST">
+      <P Name="Src">110#rconn:1</P>
+      <P Name="Points">[170, 0]</P>
+    </Branch>
+    <Branch ConnectType="DEST_SRC">
+      <P Name="Points">[60, 0]</P>
+      <P Name="Dst">98#rconn:1</P>
+    </Branch>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">193</P>
+    <P Name="Src">98#rconn:2</P>
+    <P Name="Points">[0, 26; 35, 0]</P>
+    <Branch ConnectType="DEST_DEST">
+      <P Name="Src">126#rconn:1</P>
+      <P Name="Points">[16, 0; -151, 1]</P>
+    </Branch>
+    <Branch ConnectType="DEST_SRC">
+      <P Name="Dst">102#lconn:1</P>
+    </Branch>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">211</P>
+    <P Name="Src">108#rconn:1</P>
+    <P Name="Dst">100#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">192</P>
+    <P Name="Src">100#rconn:1</P>
+    <P Name="Dst">99#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">191</P>
+    <P Name="Src">99#rconn:1</P>
+    <P Name="Points">[40, 0]</P>
+    <P Name="Dst">98#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">206</P>
+    <P Name="Src">109#rconn:1</P>
+    <P Name="Dst">127#rconn:1</P>
+  </Line>
+</System>
