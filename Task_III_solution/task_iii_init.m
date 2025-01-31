@@ -1,8 +1,3 @@
-clear all
-close all
-clc
-
-
 % DC Motor Parameters
 k = 0.09; % Constant of proportionality (Vs/rad or Nm/A)
 R = 7.8;  % Resistance (Ohms)
@@ -37,3 +32,5 @@ disp(['J1 = ', num2str(J1)]);
 disp(['J2 = ', num2str(J2)]);
 disp(['b1 = ', num2str(b1)]);
 disp(['b2 = ', num2str(b2)]);
+
+
