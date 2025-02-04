@@ -1,5 +1,6 @@
 load("matlab.mat")
 
+
 % DC Motor Parameters
 k = 0.09; % Constant of proportionality (Vs/rad or Nm/A)
 R = 7.8;  % Resistance (Ohms)
@@ -17,23 +18,34 @@ J2 = 3.86e-3; % Arm moment of inertia 2 (kg·m^2)
 b1 = 1e-4; % Arm viscous damping 1 (N·m·s)
 b2 = 2.8e-4; % Arm viscous damping 2 (N·m·s)
 
-% Load System Matrices
+% Display parameters
+disp('DC Motor Parameters:');
+disp(['k = ', num2str(k)]);
+disp(['R = ', num2str(R)]);
+disp(['L = ', num2str(L)]);
+
+disp('Furuta Pendulum Parameters:');
+disp(['L1 = ', num2str(L1)]);
+disp(['L2 = ', num2str(L2)]);
+disp(['l1 = ', num2str(l1)]);
+disp(['l2 = ', num2str(l2)]);
+disp(['m1 = ', num2str(m1)]);
+disp(['m2 = ', num2str(m2)]);
+disp(['J1 = ', num2str(J1)]);
+disp(['J2 = ', num2str(J2)]);
+disp(['b1 = ', num2str(b1)]);
+disp(['b2 = ', num2str(b2)]);
+
+
 A = linsys1.A;
 B = linsys1.B;
 C = linsys1.C;
 D = linsys1.D;
 
-
-% Choose Desired Closed-Loop Poles
-desired_poles = [-100 -150 -200 -250 -300]; 
-
-
-
-% Compute State Feedback Gain K
-K = place(A, B, desired_poles);  % More stable than acker()
-
-% Compute Closed-Loop System
-sys_cl = ss(A - B*K, B, C, D);
+sys_cl = ss(A - B*K, B, C, D);  % Create the closed-loop system
 poles = eig(A - B*K);  % Get the closed-loop poles
-disp('Closed-loop poles:');
 disp(poles);
+
+desired_poles = [-5 -6 -7 -8 -9];  % Example for faster stabilization
+
+K = acker(A, B, desired_poles);
