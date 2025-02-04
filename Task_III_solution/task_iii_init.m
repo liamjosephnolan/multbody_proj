@@ -25,7 +25,8 @@ D = linsys1.D;
 
 
 % Choose Desired Closed-Loop Poles
-desired_poles = [-100 -150 -200 -250 -300]; 
+desired_poles = [-3 -5 -10 -12 -8];  % Move poles further left but not too extreme
+
 
 
 
