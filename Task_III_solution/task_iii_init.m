@@ -29,3 +29,5 @@ Q = eye(5);
 R = 0.1;
 
 K = lqr(A,B,Q,R);
+
+sim("futura_pend.slx")
