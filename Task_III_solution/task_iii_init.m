@@ -24,17 +24,8 @@ C = linsys1.C;
 D = linsys1.D;
 
 
-% Choose Desired Closed-Loop Poles
-desired_poles = [-3 -5 -10 -12 -8];  % Move poles further left but not too extreme
+% Controler Design
+Q = eye(5);
+R = 0.1;
 
-
-
-
-% Compute State Feedback Gain K
-K = place(A, B, desired_poles);  % More stable than acker()
-
-% Compute Closed-Loop System
-sys_cl = ss(A - B*K, B, C, D);
-poles = eig(A - B*K);  % Get the closed-loop poles
-disp('Closed-loop poles:');
-disp(poles);
+K = lqr(A,B,Q,R);
