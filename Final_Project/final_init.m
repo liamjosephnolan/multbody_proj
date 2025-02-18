@@ -27,10 +27,10 @@ fprintf('Beam parameters initialized.\n');
 % Fixed-Free beam mode shapes and betaL values
 betaL = [1.875, 4.694, 7.855, 10.996]; % First few fixed-free betaL values
 
-% Calculate fundamental frequency
-omega_n = sqrt((E * Iy) / (rho * A * L^4)) * betaL(1)^2;
+% Calculate the first three natural frequencies
+omega_n = sqrt((E * Iy) / (rho * A * L^4)) * (betaL(1:3)).^2;
 fn = omega_n / (2 * pi);  % Convert to Hz
-fprintf('Fundamental natural frequency: %.2f Hz\n', fn);
+fprintf('First three natural frequencies: %.2f Hz, %.2f Hz, %.2f Hz\n', fn(1), fn(2), fn(3));
 
 %% Mode Shape Calculation
 % Mode shape for fixed-free beam:
