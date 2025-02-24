@@ -23,6 +23,15 @@ A = (w*h) - 2*(t*(h/2));  % Cross-sectional area
 
 fprintf('Beam parameters initialized.\n');
 
+%% VAC Parameters
+M_VAC = 22;  % Actuator constant (Vs/m = N/A)
+R_VAC = 5;   % Actuator resistance (Ohms)
+L_VAC = 30e-6;  % Actuator inductance (H)
+
+m_VAC = 0.1;  % Absorber mass (kg)
+r_VAC = 50;  % Absorber damping coefficient (Ns/m)
+k_VAC = 1000; % Absorber stiffness (N/m)
+
 %% Natural Frequency Calculation
 % Fixed-Free beam mode shapes and betaL values
 betaL = [1.875, 4.694, 7.855, 10.996]; % First few fixed-free betaL values
@@ -94,3 +103,20 @@ fprintf(' - Absorber mass: %.2f kg\n', mt);
 fprintf(' - Absorber natural frequency: %.2f Hz\n', omega_t / (2 * pi));
 fprintf(' - Optimal damping coefficient: %.2f Ns/m\n', c_opt);
 fprintf(' - Optimal absorber spring stiffness: %.2f N/m\n', k_t);
+
+%% PD Controller Design
+Omega = sqrt(k_VAC / m_VAC);
+s = 1i * Omega;
+
+num = -(L_VAC * s + R_VAC) * (m_VAC * s^2 + r_VAC * s + k_VAC) - M_VAC^2 * s;
+
+K_P = real(num / M_VAC);
+K_D = (1 / Omega) * imag(num / M_VAC);
+
+fprintf('PD Controller Gains:\n');
+fprintf(' - K_P: %.4f\n', K_P);
+fprintf(' - K_D: %.4f\n', K_D);
+
+sim("beam_undamped.slx")
+sim("beam_passive.slx")
+sim("beam_active.slx")
