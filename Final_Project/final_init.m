@@ -117,6 +117,59 @@ fprintf('PD Controller Gains:\n');
 fprintf(' - K_P: %.4f\n', K_P);
 fprintf(' - K_D: %.4f\n', K_D);
 
-sim("beam_undamped.slx")
-sim("beam_passive.slx")
-sim("beam_active.slx")
+warning('off', 'all'); % Annoying unconnected port message 
+undampened = sim("beam_undamped.slx");
+passive = sim("beam_passive.slx");
+active = sim("beam_active.slx");
+
+%% Extract Data
+time_undampened = undampened.undampened.time;          % Time vector for undampened system
+signal_undampened = undampened.undampened.signals.values;  % Signal data for undampened system
+
+time_passive = passive.passive.time;                % Time vector for passive system
+signal_passive = passive.passive.signals.values;    % Signal data for passive system
+
+time_active = active.active.time;                  % Time vector for active system
+signal_active = active.active.signals.values;      % Signal data for active system
+
+%% Plot and Save Individual Responses
+% Undampened System Response
+figure;
+plot(time_undampened, signal_undampened, 'b', 'LineWidth', 1.5);
+xlabel('Time (s)');
+ylabel('Displacement (m)');
+title('System Response of Undampened System');
+grid on;
+saveas(gcf, 'undampened_response.png');  % Save figure as PNG
+
+% Passive Dampened System Response
+figure;
+plot(time_passive, signal_passive, 'r', 'LineWidth', 1.5);
+xlabel('Time (s)');
+ylabel('Displacement (m)');
+title('System Response of Passive Dampened System');
+grid on;
+saveas(gcf, 'passive_dampened_response.png');  % Save figure as PNG
+
+% Active Dampened System Response
+figure;
+plot(time_active, signal_active, 'g', 'LineWidth', 1.5);
+xlabel('Time (s)');
+ylabel('Displacement (m)');
+title('System Response of Active Dampened System');
+grid on;
+saveas(gcf, 'active_dampened_response.png');  % Save figure as PNG
+
+%% Plot and Save Comparison of All Responses
+figure;
+hold on;
+plot(time_undampened, signal_undampened, 'b', 'LineWidth', 1.5, 'DisplayName', 'Undampened System');
+plot(time_passive, signal_passive, 'r', 'LineWidth', 1.5, 'DisplayName', 'Passive Absorber');
+plot(time_active, signal_active, 'g', 'LineWidth', 1.5, 'DisplayName', 'Active Absorber');
+hold off;
+xlabel('Time (s)');
+ylabel('Displacement (m)');
+title('Comparison of Undampened, Passive, and Active Systems');
+legend('show');
+grid on;
+saveas(gcf, 'comparison.png');  % Save figure as PNG
